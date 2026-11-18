@@ -1,5 +1,5 @@
 names = ("Alice", "Bob", "Charlie")
 comps = ("Engineer", "Designer", "Manager")
 
-zipped = list(zip(names, comps))
+zipped = set(zip(names, comps))
 print(zipped)
