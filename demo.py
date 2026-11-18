@@ -1,2 +1,5 @@
-print("Hello")
-print("Welcome to the demo script!")
+names = ("Alice", "Bob", "Charlie")
+comps = ("Engineer", "Designer", "Manager")
+
+zipped = list(zip(names, comps))
+print(zipped)
